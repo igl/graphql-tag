@@ -2,6 +2,13 @@
   "name": "graphql-tag",
   "version": "2.12.6",
   "description": "A JavaScript template literal tag that parses GraphQL queries",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./main.js"
+    }
+  },
   "main": "./main.js",
   "module": "./lib/index.js",
   "jsnext:main": "./lib/index.js",
